@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>soundlabz.india.com</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="../css/shop.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+         <p class="little">SOUNDlabz</p>
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+          <li class="nav-item active">
+       
+            <a class="nav-link" href="shop.html">Shop</a>
+     
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sound.html">Meet The Soundheads</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="warranty.html">Warranty</a>
+          </li>
+         
+         
+    
+          <li class="nav-item">
+    
+              
+            <form class="form-inline" action="/action_page.php" style="margin-left:40px;">
+                <li>
+                    <div class="dropdown">
+                        <a href="#" data-toggle="dropdown">
+                <input class="form-control mr-sm-2"type="text" placeholder="Search">
+            </a>
+            <div class="dropdown-menu">
+                <table rp>
+                    <tr>
+                        <td><a href="#"><img src="../images/headphone3.jpg" width="80px">Boat</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="../images/sonyaear1.jpg" width="80px">Sony</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="../images/headphone9.jpg" width="80px">Ant</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="../images/headphone1.jpg" width="80px">KOTION G200</td>
+                    </tr>
+                 
+                    
+                </table>
+            </div>
+            </div>
+            </li>
+            </form> 
+           
+        </li>
+        <li class="nav-item">
+          <a href="cart.html"><i class='fas fa-cart-arrow-down' style='font-size:36px;color:tomato;'></i></a>
+          
+        </li> 
+        <li class="nav-item">
+            <span class="badge badge-danger">4</span>
+        </li>
+      </ul>
+        <ul class="navbar-nav ml-auto" >
+            <form style="margin-left:30px;">
+              <!--modal box activator-->
+              <a href="#" data-toggle="modal" data-target="#login">
+              <input type="submit" value="login" class="btn btn-success"></a>
+              <!--The modal-->
+              <div class="modal" id="login" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header" style="background:rgba(0, 128, 255,0.5)">
+                      <h3 class="modal-title">Login Here!</h3>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!--modal body-->
+                    <div class="modal-body" style="background:rgba(179, 179, 179,0.5);">
+                      <form>
+                        <div class="alert alert-warning alert-dismissible">
+                          <button type="button" class="close" data-dismiss="alert">&times;</button>
+                          <strong>Warning!</strong> Filling up the wrong information would cause login failure.
+                        </div>
+                        <p>User ID:<input type="text" class="form-control" name="usrid" placeholder="enter your email or phone" required=""></p>
+                        <p>Password:<input type="password" class="form-control" name="pwd" placeholder="enter your password" required=""></p>
+                        <p style="text-align: center;" ><button class="btn btn-success">Login</button></p>
+                        
+                        
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--modal activator of register button-->
+              <a href="#" data-toggle="modal" data-target="#register" style="margin-left: 10px;">
+              <input type="submit" value="Register" class="btn btn-success mr">
+            </a>
+            <!--The modal-->
+            <div class="modal" id="register" role="dialog">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header" style="background:rgba(0, 128, 255,0.5)">
+                   <h3 class="modal-title">Register here!</h3>
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+                 <!--modal body-->
+                 <div class="modal-body">
+                   <form>
+                    <div class="alert alert-danger alert-dismissible">
+                      <button type="button" class="close" data-dismiss="alert">&times;</button>
+                      <strong>Caution!</strong> Filling information with vulgar words would ban you from accessing this site forever.
+                    </div>
+                     <table>
+                      <thead>
+                        <th><p>First Name:</p><input type="text" name="fname" placeholder="enter your first name" required=""></th>
+                        <th><p>Last Name:</p><input type="text" name="lname" placeholder="enter your first name" required=""></th>
+                      </thead>
+                      <thead>
+                        <th><p>Phone no:<p><input type="tel" name="phnno" placeholder="enter your phone no" required=""></th>
+                        <th><p>Email:</p><input type="email" name="email" placeholder="enter your gmail" required=""></th>
+                      </thead>
+                      <thead>
+                        <th><p>Birth-date:</p><span style="color:red">*</span></span><input type="date" name="dob"></th>
+                        <th><p>Gender:</p><input type="radio" name="gender" value="male">male<input type="radio" name="gender" value="female">Female<input type="radio" name="gender" value="others">Others</th>
+                      </thead> 
+                      <thead>
+                        <th><p>Address:</p><textarea></textarea></th>
+                        <th><p>Area Pincode/ZIP:</p><input type="tel" name="pin" placeholder="enter your postal code" required=""></th>
+                        
+                      </thead>
+                    
+                      
+                    </table>
+                    <hr>
+
+                    <p style="text-align:center;margin-top:70px;" ><input type="submit" class="btn btn-danger"  value="Register"></p>
+                   </form>
+                 </div>
+               </div>
+             </div>
+            </div>
+            </form>
+          </ul>  
+        </ul>   
+    </nav>
+    <header class="row">
+        <figure class="col-md-12">
+            <img src="../images/headphone banner.jpg" width="100%" height="500px">
+        </figure>
+        <figure class="col-md-12">
+            <img src="../images/banner4.jpg" width="100%" height="400px">
+        </figure>
+    </header>
+    <section class="row">
+        <article class="col-md-12">
+            <p class="pro">"Feel the beat"</p>
+        </article>
+        </section>
+      
+        <section class="row">
+        <article class="col-md-3">
+            <div class="container">
+                
+                
+                <div class="card" style="width:250px;text-align: center">
+                  <img class="card-img-top" src="../images/headphone2.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Kotion Xbox</h4>
+                    <p class="card-text">Rs 1200</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+        </article>
+        <article class="col-md-3">
+            <div class="container">
+                
+                
+                <div class="card" style="width:250px;text-align: center;">
+                  <img class="card-img-top" src="../images/head8.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Kotion Xbox</h4>
+                    <p class="card-text">Rs 1250</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+        </article>
+
+        <article class="col-md-3">
+            <div class="container">
+                
+                
+                <div class="card" style="width:250px;text-align: center">
+                  <img class="card-img-top" src="../images/headphone9.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Ant extrabass</h4>
+                    <p class="card-text">Rs 1700</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+        </article>
+
+        <article class="col-md-3">
+            <div class="container">
+                
+                
+                <div class="card" style="width:250px;text-align: center">
+                  <img class="card-img-top" src="../images/headphones5.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Sony Extrabass</h4>
+                    <p class="card-text">Rs 2000</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+        </article>
+        <article class="col-md-3">
+            <div class="container">
+                
+                
+                <div class="card" style="width:250px;text-align: center;margin-top:15px;">
+                  <img class="card-img-top" src="../images/erp2.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Extreme Extrabass(red & Black) noise-cancellation & waterproof</h4>
+                    <p class="card-text">Rs 2000</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+        </article>
+
+        <article class="col-md-3">
+            <div class="container">
+                
+                
+                <div class="card" style="width:250px;text-align: center;margin-top:15px;">
+                  <img class="card-img-top" src="../images/earp1.jpeg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Sony Extrabass(red)</h4>
+                    <p class="card-text">Rs 1900</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+        </article>
+
+        <article class="col-md-3">
+            <div class="container">
+                
+                
+                <div class="card" style="width:250px;text-align: center;margin-top:15px;">
+                  <img class="card-img-top" src="../images/earphone6.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Ant Extrabass(black)</h4>
+                    <p class="card-text">Rs 1500</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+        </article>
+
+        <article class="col-md-3">
+            <div class="container">
+                
+                
+                <div class="card" style="width:250px;text-align: center; margin-top:15px;">
+                  <img class="card-img-top" src="../images/erp3.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">CLAVER</h4>
+                    <p class="card-text">Rs 1000</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+        </article>
+    </section>
+
+    <footer>
+        <p style="background:lightslategray;padding:10px;margin-bottom:0px;margin-top:15px; text-align:center;">All rights are reserved to soundlabz</p>
+       
+    </footer>
+    </div>
+</body>
+</html>
